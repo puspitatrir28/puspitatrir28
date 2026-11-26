@@ -10,7 +10,7 @@ Information Systems (Data Science) student turning messy, real-world data into d
 
 ### 🚀 Featured Projects
 
-**[Fraud Detection Data Pipeline](LINK-REPO-FRAUD-DETECTION)**
+**[Fraud Detection Data Pipeline](https://github.com/puspitatrir28/fraud-detection-pipeline)**
 End-to-end data engineering pipeline simulating real-time credit card fraud analytics — ~285,000 transactions (492 labeled frauds) streamed through **Kafka**, landed in an S3-compatible data lake, orchestrated hourly with **Airflow**, loaded into **ClickHouse**, and visualized in a Streamlit dashboard. Built for reliability: **at-least-once delivery** with manual offset commits and a retry-safe, idempotent ETL. Runs locally with a single `docker compose up`.
 `Kafka` `Airflow` `ClickHouse` `SeaweedFS (S3)` `Docker` `Streamlit`
 
